@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,600;0,700;1,200;1,400&display=swap');
+/*font-family: 'Bebas Neue', sans-serif;*/
+
+*{
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgba(4, 1, 17, 0.936) 0%, rgba(3, 3, 31, 0.978) 56%, rgba(2, 5, 19, 0.975) 88%);
+     
+}
+.enlaces .letra{
+    color: rgb(170, 33, 204);
+}
+nav{
+    display: flex;
+    background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgba(8,3,32,0.9360119047619048) 0%, rgba(0, 0, 0, 0.978) 56%, rgba(12, 28, 92, 0.975) 88%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 106px;
+    justify-content: space-between;
+}
+.logo img{
+    height: 35px;
+    width: 50px;
+    border-radius: 6px;
+}
+.enlaces{
+    
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.boton{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.boton button{
+    width: 12vh;
+    height: 3.4vh;
+    border-radius: 6px;
+    color: white;
+    background: rgb(96,33,204);
+    background: linear-gradient(90deg, rgba(96,33,204,0.9360119047619048) 0%, rgba(119,29,167,1) 40%, rgba(156,11,151,0.9752275910364145) 88%);
+    border: none;
+}
+.enlaces a{
+    text-decoration: none;
+    color: white;
+}
+.enlaces a:hover{
+    color: rgb(170, 33, 204);
+}
+
+
+
+
+
+
+
+
+
+
+
+.buttons{
+            
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Login{
+    width: 17vh;
+    height: 6vh;
+    font-size: 19px;
+    border-radius: 9px;
+    border-color: blueviolet ;
+    border: 3.7px solid blueviolet;
+    background-color: rgba(240, 241, 255, 0);
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.Register{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 17px;
+    width: 17vh;
+    height: 6vh;
+    border-radius: 9px;
+    background-image: url(../img/degradado.jpg);
+    border: none;
+    background-size: cover; 
+    color: white;
+}
+.conte{
+    display: flex;
+    align-items: center;
+    
+    width: 900px;
+    height: 100%;
+    justify-content: flex-end;
+    
+}
+.descripcion{
+
+    width: 730px;
+    padding-bottom: 100px;
+
+    
+}
+.descripcion h1{
+    font-size: 90px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.descripcion h6{
+    font-size: 30px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.descripcion span{
+    color: rgba(215, 104, 243, 0.897);
+}
+header{
+background-image: url(../img/Captura.PNG);
+height: 80vh;
+width: 100%;
+background-size: cover;
+background-position: center top;
+
+}
+
+
+
+section img{
+    width: 100px;
+    
+}
+section{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 70%;
+}
+.a{
+    
+    display: flex;
+    align-items: center;
+    
+}
+.enlaces4 img{
+    height: 40px;
+}
+.enlaces2 img{
+    width: 200px;
+    height: 160px;
+}
+
+
+
+.videojuegos{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.juego1 h5{
+text-align: left;
+color: aliceblue;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+.juego1{
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.438);
+text-align: center;
+border-radius: 10px;
+
+
+
+}
+.juego1 img{
+width: 250px;
+height: 240px;
+border-radius: 20px;
+
+}
+.precio{
+display: flex;
+
+width: 250px;
+justify-content: space-between;
+
+}
+.izquierda{
+text-align: left;
+}
+.izquierda .Oned{
+font-size: 11.5px;
+padding: 0px;
+color: rgba(82, 77, 77, 0.863);
+}
+.izquierda .Ralph{
+font-size: 15px;
+padding: 0px;
+color: aliceblue;
+}
+.derecha .current{
+color: rgba(82, 77, 77, 0.863);
+font-size: 11.5px;
+}
+.derecha .eth{
+color: aliceblue;
+}
+.juego1 .buttons button{
+width: 120px;
+height: 4vh;
+border-radius: 100px;
+}
+.juego1 .buttons{
+
+width: 250px;
+}
+.boton1{
+border-color: blueviolet ;
+border: 1.7px solid blueviolet;
+background-color: rgba(240, 241, 255, 0);
+color: aliceblue;
+}
+.boton2{
+background: rgba(93, 42, 180, 0.596);
+background: linear-gradient(90deg, rgba(93, 35, 194, 0.76) 0%, rgba(119,29,167,1) 40%, rgba(190, 23, 185, 0.975) 88%);
+border: none;
+color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+.tecnologia{
+    font-size: 36px;
+    color: aliceblue;
+    z-index: 10000;
+    
+    padding-top: 60px;
+}
+.tecnologia span{
+    background-color: blueviolet;
+    font-family: 'Times New Roman', serif;
+}
+.tecnologia h1{
+    transform: translate(100px,0px);
+-webkit-transform: translate(100px,0px);
+-moz-transform: translate(100px,0px);
+    
+
+font-family: 'Times New Roman', serif;
+
+
+}
+.present{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    
+    width: 71%;
+    overflow: hidden;
+    
+}
+.image{
+    background-image: url(../img/ImagenRotate.webp);
+    width: 600px;
+    height: 330px;
+    background-size: cover;
+    transform: translate(-120px,0px);
+-webkit-transform: translate(-120px,0px);
+-moz-transform: translate(-120px,0px);
+
+}
+.loa{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.Load{
+    width: 180px;
+height: 5vh;
+font-size: 17px;
+border-radius: 100px;
+    border-color: blueviolet ;
+border: 1.7px solid blueviolet;
+background-color: rgba(240, 241, 255, 0);
+color: aliceblue;
+}
+
+@keyframes animation2 {
+    0%{
+        transform: translate(299px,0px);
+-webkit-transform: translate(299px,0px);
+-moz-transform: translate(299px,0px);
+    }
+    100%{
+        transform: translate(-120px,0px);
+        -webkit-transform: translate(-120px,0px);
+        -moz-transform: translate(-120px,0px);
+    }
+}
+.ge{
+    animation: animation2 1.4s;
+}
+
+
+
+
+@keyframes animation1 {
+    0%{
+        opacity: -1;
+        transform: translate(-299px,0px);
+-webkit-transform: translate(-299px,0px);
+-moz-transform: translate(-299px,0px);
+    }
+    100%{
+        transform: translate(100px,0px);
+        -webkit-transform: translate(100px,0px);
+        -moz-transform: translate(100px,0px);
+    }
+}
+.ga{
+    animation: animation1 1.4s;
+}
+
+
+
+
+
+
+
+@keyframes games1 {
+    0%{
+        opacity: 0;
+        transform: translate(1px,158px);
+-webkit-transform: translate(1px,158px);
+-moz-transform: translate(1px,158px);
+    }
+    100%{
+        transform: translate(1px,1px);
+-webkit-transform: translate(1px,1px);
+-moz-transform: translate(1px,1px);
+    }
+}
+
+@keyframes games2 { 
+    0%{
+        opacity: 0;
+        transform: translate(1px,158px);
+-webkit-transform: translate(1px,158px);
+-moz-transform: translate(1px,158px);
+    }
+    100%{
+        transform: translate(1px,1px);
+-webkit-transform: translate(1px,1px);
+-moz-transform: translate(1px,1px);
+    }
+}
+
+@keyframes games3 {
+    0%{
+        opacity: 0;
+        transform: translate(1px,158px);
+-webkit-transform: translate(1px,158px);
+-moz-transform: translate(1px,158px);
+    }
+    100%{
+        transform: translate(1px,1px);
+-webkit-transform: translate(1px,1px);
+-moz-transform: translate(1px,1px);
+    }
+}
+
+@keyframes games5 {
+    0%{
+        opacity: 0;
+        transform: translate(1px,158px);
+-webkit-transform: translate(1px,158px);
+-moz-transform: translate(1px,158px);
+    }
+    100%{
+        transform: translate(1px,1px);
+-webkit-transform: translate(1px,1px);
+-moz-transform: translate(1px,1px);
+    }
+}
+
+.game1{
+    animation: games1 1s ;
+
+}
+.game2{
+    animation: games2 1.5s;
+}
+.game3{
+    animation:  games3 1.9s;
+}
+.game4{
+    animation: games5 2.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.correo{
+    display: flex;
+}
+.fo4 input{
+    padding: 9px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px rgb(77, 71, 71);
+}
+.fo4 .cajita{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.fo3{
+    margin-top: 26px;
+    
+}
+footer{
+    display: flex;
+    margin-top: 50px;
+    color: aliceblue;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 80px  ;
+    padding-bottom: 80px;
+    background-color: rgba(0, 0, 0, 0.897);
+}
+.fo1 img{
+    width: 70px;
+    height: 50px;
+    border-radius: 8px;
+}
+.fo1{
+    
+    width: 200px;
+    font-size: 13px;
+}
+.btn{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.btnF{
+    width: 20vh;
+height: 5vh;
+border-radius: 6px;
+color: white;
+font-size: 17px;
+background-image: url(../img/degradado.jpg);
+border: none;
+background-size: cover;
+}
+.redes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+}
+.social{
+    margin-top: 40px;
+    width: 250px;
+    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    color: aliceblue;
+    border: solid 1px rgba(66, 3, 68, 0.719);
+    padding-left: 30px;
+}
+.social .Helen3{
+    width: 160px;
+    font-size: 15px;
+    
+}
+.Helen{
+    color: blueviolet;
+    
+}
+.Helen2{
+    margin-bottom: 10px;
+}
+.Helen , .Helen2{
+    
+    width: 50px;
+    margin-left: 40px;
+    
+}
+.textimonials{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.txt2{
+ 
+}
+.hood{
+    
+}
+.shooter{
+    
+    width: 76%;
+    background-image: url(../img/shooter.png);
+    height: 600px;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+    
+}
+.shooter h1{
+    font-size: 100px;
+    color: aliceblue;
+}
+.shooter p{
+    font-size: 20px;
+    color: aliceblue;
+}
+.shooter button{
+    width: 120px;
+    height: 4vh;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+
+
+@keyframes footerF {
+    0%{
+        opacity: -1;
+        transform: translate(-116px,0px);
+-webkit-transform: translate(-116px,0px);
+-moz-transform: translate(-116px,0px);
+    }
+    100%{
+
+    }
+}
+
+.footerF{
+    animation: footerF 1.5s;
+}
+
+
+
+@keyframes move1 {
+    0%{
+        opacity: 0;
+        transform: translate(1px,164px);
+-webkit-transform: translate(1px,164px);
+-moz-transform: translate(1px,164px);
+    }
+    100%{
+        transform: translate(1px,0px);
+-webkit-transform: translate(1px,0px);
+-moz-transform: translate(1px,0px);
+    }
+}
+@keyframes move2 {
+    0%{
+        opacity: 0;
+        transform: translate(1px,-164px);
+-webkit-transform: translate(1px,-164px);
+-moz-transform: translate(1px,-164px);
+    }
+    100%{
+        transform: translate(1px,0px);
+-webkit-transform: translate(1px,0px);
+-moz-transform: translate(1px,0px);
+    }
+
+}
+.arriba{
+    animation: move2 1.5s;
+}
+.abajo{
+    animation: move1 1.5s;
+}
